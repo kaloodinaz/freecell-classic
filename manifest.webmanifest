@@ -1,0 +1,78 @@
+{
+  "id": "/freecell-classic/",
+  "name": "FreeCell Solitaire",
+  "short_name": "FreeCell",
+  "lang": "en",
+  "dir": "ltr",
+  "description": "Play FreeCell solitaire free online. No sign-up or download – works on phone, tablet and desktop. Undo, fullscreen, sound options and a quick how-to-play guide included.",
+  "start_url": "./?source=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
+  "orientation": "any",
+  "background_color": "#0f2d17",
+  "theme_color": "#1b3a12",
+  "categories": [
+    "games",
+    "entertainment"
+  ],
+  "icons": [
+    {
+      "src": "../freecell-game/img/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "../freecell-game/img/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "../freecell-game/img/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "../freecell-game/img/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "../freecell-game/img/shots/en-wide.webp",
+      "sizes": "1280x720",
+      "type": "image/webp",
+      "form_factor": "wide",
+      "label": "FreeCell Solitaire"
+    },
+    {
+      "src": "../freecell-game/img/shots/en-narrow.webp",
+      "sizes": "720x1280",
+      "type": "image/webp",
+      "form_factor": "narrow",
+      "label": "FreeCell Solitaire"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "New game",
+      "short_name": "New game",
+      "url": "./?new=1&source=shortcut",
+      "icons": [
+        {
+          "src": "../freecell-game/img/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}
